@@ -1,32 +1,35 @@
 {% extends 'base.html' %}
 
 {% block head %}
+<head>
 
-<title>Search Page</title>
+
+    <title>COVID MAP
+
+    </title>
+
+
+</head>
+
+
+
+
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 {% endblock %}
 
 {% block body %}
 <div class="content">
-    <h1 style="text-align: center">Predict The Quality of your Wine</h1>
-
-    <div class="form">
-        <form action="/predict" method="POST">
-            <input type="float" name="fixed_acidity" id="fixed_acidity" placeholder="fixed_acidity">
-            <input type="float" name="volatile_acidity" id="volatile_acidity" placeholder="volatile_acidity">
-            <input type="float" name="citric_acid" id="citric_acid" placeholder="citric_acid">
-            <input type="float" name="residual_sugar" id="residual_sugar" placeholder="residual_sugar">
-            <input type="float" name="chlorides" id="chlorides" placeholder="chlorides">
-            <input type="float" name="free_sulfur_dioxide" id="free_sulfur_dioxide" placeholder="free_sulfur_dioxide">
-            <input type="float" name="total_sulfur_dioxide" id="total_sulfur_dioxide" placeholder="total_sulfur_dioxide">
-            <input type="float" name="density" id="density" placeholder="density">
-            <input type="float" name="pH" id="pH" placeholder="pH">
-            <input type="float" name="sulphates" id="sulphates" placeholder="sulphates">
-            <input type="float" name="alcohol" id="alcohol" placeholder="alcohol">
+    <h1 style="text-align: center">ASK ME ABOUT ANY INDIAN REGION/pincode/state/etc</h1>
 
 
-            <input type="submit" value="Predict">
-        </form>
-    </div>
+        <iframe
+            allow="microphone;"
+            width="350"
+            height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/b7390817-6be1-40bd-acdf-a26ceff35726">
+        </iframe>
+    <a href="/map">MAP</a>
+
+
 </div>
 {% endblock %}
