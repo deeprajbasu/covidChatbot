@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 #import webbrowser
 
 
-gmaps = googlemaps.Client(key='AIzaSyAzBeSZaeOn-B9alsP_aoA1pQqHMFISh4A')
+gmaps = googlemaps.Client(key='XXXX')
 
 app = Flask(__name__) # initializing a flask app
 
