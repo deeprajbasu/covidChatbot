@@ -1,10 +1,7 @@
 # covidChatbot
 this chatbot serves corona information in the form of geographical map YT demo https://www.youtube.com/watch?v=tzkP3nWc_wE&amp;t=119s
 
+## Demo Videos
+https://www.youtube.com/watch?v=EMjIB-Dn0YY&t=26s
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EMjIB-Dn0YY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EMjIB-Dn0YY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=tzkP3nWc_wE&t=31s
