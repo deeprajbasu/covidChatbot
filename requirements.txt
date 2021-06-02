@@ -28,7 +28,7 @@ SQLAlchemy==0.7.10
 sqlalchemy-migrate==0.13.0
 sqlparse==0.3.1
 Tempita==0.5.2
-urllib3==1.25.9
+urllib3==1.26.5
 Werkzeug==0.16.0
 wincertstore==0.2
 xlrd==0.7.1
